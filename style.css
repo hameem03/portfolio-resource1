@@ -23,12 +23,12 @@ body{
     font-size: 15px;
     font-weight: 400;
 }
-.nav-btn{
+.primary-btn{
     border: 0;
     border-radius: 5px;
     background-color: #FD6E0A;
     color: #ffff;
-    padding: 15px 25px;
+    padding: 10px 25px;
     font-size: 15px;
     font-weight: 500;
 }
@@ -43,7 +43,10 @@ body{
 header{
     /* background-color: #f8f5e4; */
     background-color: bisque;
-    height: 97vh;
+    background-image: url("/images/headerbg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 500px;
 }
 .banner{
     display: flex;
@@ -52,6 +55,29 @@ header{
 .hardy{
     width: 400px;
 }
-.developer{
-    height: auto;
+.greating{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    color: #474747;
+}
+.name{
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+}
+
+.description{
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+}
+.bnr-right{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5px;
 }
