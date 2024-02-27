@@ -7,9 +7,9 @@ body{
 
 .nav-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
+    padding:30px 60px;
     
 }
 .nav-right{
@@ -46,14 +46,15 @@ header{
     background-image: url("/images/headerbg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 500px;
+    background-size: 400px;
 }
 .banner{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .hardy{
-    width: 400px;
+    width: 300px;
 }
 .greating{
     font-size: 25px;
@@ -68,6 +69,7 @@ header{
 }
 
 .description{
+    width: 450px;
     font-size: 12px;
     font-weight: 400;
     color: #757575;
@@ -80,4 +82,26 @@ header{
     font-size: 15px;
     font-weight: 500;
     margin-left: 5px;
+}
+.developer{
+    height: auto;
+}
+
+/* medio quary */
+/* smaller device */
+@media screen and (max-width:576px) {
+    .nav-container{
+        gap: 20px;
+        padding: 0;
+    }
+    header{
+        background-image: none;
+        background-color: #ffff;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .description{
+        width: 400px;
+    }
 }
