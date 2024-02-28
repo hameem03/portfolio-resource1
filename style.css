@@ -65,17 +65,17 @@ header{
     margin: 0;
     color: #474747;
 }
-.name{
-    font-weight: 700;
-    font-size: 45px;
-    margin: 0;
-}
 
 .description{
     width: 450px;
     font-size: 12px;
     font-weight: 400;
     color: #757575;
+}
+.hardy-name{
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0;
 }
 .bnr-right{
     color: #FD6E0A;
@@ -102,7 +102,7 @@ header{
     /* margin-top: 100px; */
     padding: 30px;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .about-me{
     font-size: 25px;
@@ -128,6 +128,49 @@ header{
     list-style: none;
 }
 /* About section end */
+
+/* summary section start */
+.summary-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.summary-container{
+    display: flex;
+}
+.my-education-container, .my-experience-container{
+    padding: 30px;
+}
+.my-education, .my-experience{
+    font-size: 20px;
+    font-weight: 700;
+}
+.master, .my-position{
+    font-size: 15;
+    font-weight: 700;
+    color: rgb(26, 26, 44);
+}
+.harverd, .company{
+    font-weight: 600;
+    font-size: 13px;
+    color:#474747;
+}
+.education-des, .experience-des{
+    font-size: 10px;
+    font-weight: 600;
+    color: #757575;
+}
+hr{
+    color:#757575;
+}
+.summery-btn{
+    padding: 10px 15px;
+}
+.summery-button{
+    text-align: center;
+    margin-top: 20px;
+}
+/* summary section end */
 
 
 
@@ -160,5 +203,9 @@ header{
     }
     .about-container{
         width: 300px;
+    }
+
+    .summary-container{
+        flex-direction: column;
     }
 }
